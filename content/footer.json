@@ -16,7 +16,7 @@
   "contacts": {
     "title": "Contatos",
     "phone_wpp": true,
-    "socials": true,
+    "socials": false,
     "email": true,
     "address": true
   },
@@ -27,19 +27,22 @@
     }
   ],
   "payment_methods": {
-    "bb": true,
+    "bb": false,
     "visa": true,
     "boleto": true,
-    "aura": false,
+    "aura": true,
     "banrisul": false,
     "elo": true,
-    "hipercard": false,
+    "hipercard": true,
     "hsbc": false,
-    "bradesco": true,
+    "bradesco": false,
     "santander": false,
     "mastercard": true,
     "citibank": false,
+    "hiper": true,
+    "diners": true,
     "mais": false,
+    "amex": true,
     "itau": true
   },
   "credits": ""
